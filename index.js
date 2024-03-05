@@ -49,3 +49,6 @@ arrayGenerado.unshift(-2, 0);
 
 //Eliminar el primer elemento del array usando shift
 let primerElemento = arrayGenerado.shift();
+
+//Obtener una porción del array usando slice
+let subArray = arrayGenerado.slice(2, 5);
