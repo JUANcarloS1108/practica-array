@@ -6,3 +6,6 @@ let arrayConElementos = [1, 'dos', true, { nombre: 'Juan' }];
 
 //Crear un array con elementos de diferentes tipos de datos
 let arrayTiposDiferentes = [1, 'dos', true, { nombre: 'Juan' }];
+
+//Crear un array utilizando el constructor Array
+let arrayConstructor = new Array();
