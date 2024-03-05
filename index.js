@@ -52,3 +52,6 @@ let primerElemento = arrayGenerado.shift();
 
 //Obtener una porción del array usando slice
 let subArray = arrayGenerado.slice(2, 5);
+
+//Convertir un array en un string usando join
+let arrayAString = arrayGenerado.join(', ');
