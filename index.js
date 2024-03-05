@@ -15,3 +15,7 @@ let arraySecuencia = Array.from({ length: 5 }, (_, index) => index + 1);
 
 //Crear un array mediante la repetición de un valor utilizando el método Array.fill
 let arrayRepetido = Array(4).fill('Hola');
+
+//Crear un array a partir de una cadena de texto usando el método String.split
+let cadena = 'Manzana,Naranja,Uva';
+let arrayDesdeCadena = cadena.split(',');
