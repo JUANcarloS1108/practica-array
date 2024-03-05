@@ -61,3 +61,7 @@ let subArrayNegativo = arrayGenerado.slice(-3);
 
 //Eliminar una porción del array sin modificar el original usando slice
 let arraySinElemento = arrayGenerado.slice(0, 2).concat(arrayGenerado.slice(3));
+
+//Agregar múltiples elementos al principio del array usando unshift() con spread operator
+let nuevosElementos = [-4, -6];
+arrayGenerado.unshift(...nuevosElementos);
