@@ -28,3 +28,10 @@ let arrayCombinado = [...array1, ...array2];
 //Crear un array con valores únicos utilizando el método Set() y el operador spread
 let arrayConDuplicados = [1, 2, 2, 3, 4, 4];
 let arrayUnico = [...new Set(arrayConDuplicados)];
+
+//Crear un array con una función que genere valores dinámicamente
+function generarArray(longitud) {
+    return Array.from({ length: longitud }, (_, index) => index * 2);
+  }
+  let arrayGenerado = generarArray(5);
+  
