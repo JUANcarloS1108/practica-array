@@ -58,3 +58,6 @@ let arrayAString = arrayGenerado.join(', ');
 
 //Obtener una subsección del array desde un índice negativo usando slice
 let subArrayNegativo = arrayGenerado.slice(-3);
+
+//Eliminar una porción del array sin modificar el original usando slice
+let arraySinElemento = arrayGenerado.slice(0, 2).concat(arrayGenerado.slice(3));
