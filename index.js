@@ -12,3 +12,6 @@ let arrayConstructor = new Array();
 
 //Crear un array con una secuencia numérica usando el método Array.from
 let arraySecuencia = Array.from({ length: 5 }, (_, index) => index + 1);
+
+//Crear un array mediante la repetición de un valor utilizando el método Array.fill
+let arrayRepetido = Array(4).fill('Hola');
