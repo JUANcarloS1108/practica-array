@@ -55,3 +55,6 @@ let subArray = arrayGenerado.slice(2, 5);
 
 //Convertir un array en un string usando join
 let arrayAString = arrayGenerado.join(', ');
+
+//Obtener una subsección del array desde un índice negativo usando slice
+let subArrayNegativo = arrayGenerado.slice(-3);
