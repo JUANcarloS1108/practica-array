@@ -19,3 +19,8 @@ let arrayRepetido = Array(4).fill('Hola');
 //Crear un array a partir de una cadena de texto usando el método String.split
 let cadena = 'Manzana,Naranja,Uva';
 let arrayDesdeCadena = cadena.split(',');
+
+//Crear un array combinando dos arrays existentes utilizando el operador spread
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let arrayCombinado = [...array1, ...array2];
