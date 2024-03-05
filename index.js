@@ -37,3 +37,6 @@ function generarArray(longitud) {
   
 //Obtener la longitud de un array
 let longitudArray = arrayGenerado.length;
+
+//Agregar elementos al final del array usando push
+arrayGenerado.push(10, 12);
