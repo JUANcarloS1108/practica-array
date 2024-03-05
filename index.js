@@ -40,3 +40,5 @@ let longitudArray = arrayGenerado.length;
 
 //Agregar elementos al final del array usando push
 arrayGenerado.push(10, 12);
+//Eliminar el último elemento del array usando pop
+let ultimoElemento = arrayGenerado.pop();
