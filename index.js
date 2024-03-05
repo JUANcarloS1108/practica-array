@@ -46,3 +46,6 @@ let ultimoElemento = arrayGenerado.pop();
 
 //Agregar elementos al principio del array usando unshift
 arrayGenerado.unshift(-2, 0);
+
+//Eliminar el primer elemento del array usando shift
+let primerElemento = arrayGenerado.shift();
