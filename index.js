@@ -1,1 +1,1 @@
-console.log("hola mundo");
+let arrayVacio = [];
