@@ -35,3 +35,5 @@ function generarArray(longitud) {
   }
   let arrayGenerado = generarArray(5);
   
+//Obtener la longitud de un array
+let longitudArray = arrayGenerado.length;
